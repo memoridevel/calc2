@@ -1,0 +1,48 @@
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+* {
+	box-sizing: border-box;
+}
+.calc {
+	background-color: #333;
+	width: 256px;
+	height: 384px;
+	padding: 16px;
+	border-radius: 16px;
+	margin: 0 auto;
+}
+.form-control {
+	text-align: right;
+	margin: 4px;
+	width: 216px;
+	height: 64px;
+	font-size: 16px;
+	transition: 0.7s all;
+	font-weight: 700;
+}
+.btn {
+	margin: 4px;
+	width: 48px;
+	height: 48px;
+	font-size: 16px;
+	transition: 0.7s all;
+	opacity: 0.7;
+	font-weight: 700;
+}
+.btn:hover {
+	opacity: 1;
+}
+.btn-reset {
+	width: 160px;
+}
+.btn-zero {
+	width: 104px;
+}
+.calc__body {
+	display: flex;
+	justify-content: space-between;
+	font-size: 0;
+}
